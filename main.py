@@ -86,6 +86,8 @@ dispatcher.add_handler(info_handler)
 dispatcher.add_handler(unknown_handler)
 dispatcher.add_handler(message_handler)
 
+if os.path.isdir('users') is False:
+    os.mkdir("users")
 print('server started')
 updater.start_polling()
 updater.idle()
