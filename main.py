@@ -2,7 +2,7 @@ import random
 from telegram import Bot
 from telegram.ext import Updater, CommandHandler, Filters, MessageHandler
 import os.path
-TOKEN = '5457883787:AAEgiVmVcefhDG4p6-BNhvE9GycVS7czVY0'
+TOKEN = 'YOUR TOKEN HERE'  # Don't forget input your token
 
 bot = Bot(token=TOKEN)
 updater = Updater(token=TOKEN)
